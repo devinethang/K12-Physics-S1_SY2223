@@ -23,7 +23,7 @@ A collection of workbooks for Physics calculations
 
 ### 7.02: Uniform Circular Motion
 
-* Workbook: [7-02 - Uniform Circular Motion.xlsx](7%20-%20Motion%20In%20Two%20Dimensions\7-02%20-%20Uniform%20Circular%20Motion.xlsx)
+* Workbook: [7-02 - Uniform Circular Motion.xlsx](7%20-%20Motion%20In%20Two%20Dimensions/7-02%20-%20Uniform%20Circular%20Motion.xlsx)
 
 #### Unit Questions:
 
