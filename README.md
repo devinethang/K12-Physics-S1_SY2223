@@ -29,10 +29,14 @@ A collection of workbooks for Physics calculations
 
 * A 70.0 kg man stands on the edge of a merry-go-round with a radius of 5.0 m. He is moving with a uniform velocity of 2.0 m/s. What is his centripetal acceleration? What is the magnitude of the centripetal force that acts on him?
 
-* A 0.015 kg rubber stopper is attached to a 1.00 m string and swung overhead in a circle to make one revolution in 1.50 s. Find the following:
+* A 0.015 kg rubber stopper is attached to a 1.00 m string and swung overhead in a circle to make one revolution in 1.50 s.
+
+```
+Find the following:
 • Velocity of the stopper
 • Centripetal acceleration of the stopper
 • Centripetal force exerted by the string on the stopper
+```
 
 #### Problem Set
 
