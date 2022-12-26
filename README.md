@@ -167,3 +167,15 @@ Find the following:
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 36
+
+### 8.05: Einstein and the Gravitational Field
+
+* Workbook: [8-05 - Einstein and the Gravitational Field.xlsx](8-05%20-%20Einstein%20and%20the%20Gravitational%20Field.xlsx)
+
+#### Unit Questions:
+
+* Calculate the strength of the earth’s gravitational field near sea level from Newton’s law of universal gravitation and then calculate it at a distance twice as far from the center of the earth.
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 37
