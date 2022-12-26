@@ -109,3 +109,17 @@ Find the following:
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 32
+
+### 7.07: Simple Harmonic Motion in Springs
+
+* Workbook: [7-07 - Simple Harmonic Motion in Springs.xlsx](7%20-%20Motion%20In%20Two%20Dimensions/7-07%20-%20Simple%20Harmonic%20Motion%20in%20Springs.xlsx)
+
+#### Unit Questions:
+
+* A screen door spring has a k of 250 N/m. What tension (force) will it apply to the door when the door is opened by –0.50 meters?
+
+* A 0.020 kg insect gets caught in a spider web and causes the web to vibrate with a frequency of 10.0 Hz. What is the spring constant of the spider web?
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 33
