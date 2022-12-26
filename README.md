@@ -24,7 +24,7 @@ Cubit Estimate Conversions:
 1 cubit = 0.4572 m
 ```
 
-#### Problem Sets
+#### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 1
 
@@ -36,9 +36,26 @@ Cubit Estimate Conversions:
 
 ![SI Prefixes.png](2%20-%20Physical%20Units%20and%20Measurement/SI%20Prefixes.png)
 
-#### Problem Sets
+#### Problem Set
 
-* "Physics: Problems and Solutions" - Problem Set 3 - 7
+* "Physics: Problems and Solutions" - Problem Set 2
+
+### 2.08: Significant Figures
+
+* There are rules regarding significant digits.
+
+```
+Rule 1: All nonzero digits (1–9) are significant.
+Rule 2: Zeros between nonzero digits are significant.
+Rule 3: Zeros used solely as placeholders are not significant. These zeros include leading zeros in front of a number or trailing zeros (those to the right of a nonzero digit) when there is no decimal point.
+Rule 4: All trailing zeros are significant if there is a decimal point in the number.
+Rule 5: Counted numbers have an infinite number of significant digits because there is no uncertainty in them.
+Rule 6: For numbers written in scientific notation, all digits are significant.
+```
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 6
 
 ## 7: Motion in Two Dimensions
 
@@ -52,7 +69,7 @@ Cubit Estimate Conversions:
 
 * A boy throws a stone with a velocity of +20.0 m/s at an angle of 30°. How long does it take the stone to hit the ground? How far will the stone have traveled when it hits the ground? How high will it go?
 
-#### Problem Sets
+#### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 30
 
@@ -74,7 +91,7 @@ Find the following:
 • Centripetal force exerted by the string on the stopper
 ```
 
-#### Problem Sets
+#### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 31
 
@@ -86,6 +103,6 @@ Find the following:
 
 * A centrifuge rotor accelerates from rest to 20,000 rpm in 2 minutes. What is the angular acceleration?
 
-#### Problem Sets
+#### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 32
