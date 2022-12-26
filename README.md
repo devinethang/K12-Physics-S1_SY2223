@@ -42,16 +42,19 @@ Cubit Estimate Conversions:
 
 ### 2.08: Significant Figures
 
-* There are rules regarding significant digits.
+Rules regarding significant digits:
 
-```
-Rule 1: All nonzero digits (1–9) are significant.
-Rule 2: Zeros between nonzero digits are significant.
-Rule 3: Zeros used solely as placeholders are not significant. These zeros include leading zeros in front of a number or trailing zeros (those to the right of a nonzero digit) when there is no decimal point.
-Rule 4: All trailing zeros are significant if there is a decimal point in the number.
-Rule 5: Counted numbers have an infinite number of significant digits because there is no uncertainty in them.
-Rule 6: For numbers written in scientific notation, all digits are significant.
-```
+* Rule 1: All nonzero digits (1–9) are significant.
+
+* Rule 2: Zeros between nonzero digits are significant.
+
+* Rule 3: Zeros used solely as placeholders are not significant. These zeros include leading zeros in front of a number or trailing zeros (those to the right of a nonzero digit) when there is no decimal point.
+
+* Rule 4: All trailing zeros are significant if there is a decimal point in the number.
+
+* Rule 5: Counted numbers have an infinite number of significant digits because there is no uncertainty in them.
+
+* Rule 6: For numbers written in scientific notation, all digits are significant.
 
 #### Problem Set
 
