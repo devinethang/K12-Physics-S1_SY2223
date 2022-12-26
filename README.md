@@ -137,3 +137,15 @@ Find the following:
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 34
+
+### 8.01: History of Gravitation
+
+* Workbook: [8-01 - History of Gravitation.xlsx](8%20-%20Gravitation/8-01%20-%20History%20of%20Gravitation.xlsx)
+
+#### Unit Questions:
+
+* Suppose Satellite B is in orbit 3.0 times as far from the earth's center as Satellite A. How are their orbital periods—the times to orbit the earth—related?
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 35
