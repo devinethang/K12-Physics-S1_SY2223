@@ -123,3 +123,17 @@ Find the following:
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 33
+
+### 7.08: Simple Harmonic Motion in Pendulums
+
+* Workbook: [7-08 - Simple Harmonic Motion in Pendulums.xlsx](7%20-%20Motion%20In%20Two%20Dimensions/7-08%20-%20Simple%20Harmonic%20Motion%20in%20Pendulums.xlsx)
+
+#### Unit Questions:
+
+* What is the period and frequency of a pendulum whose string length is 0.30 m, whose bob mass is 0.20 kg, and that is displaced by an angle of 10°?
+
+* For a pendulum moving in SHM with a frequency of 1.0 Hz, what is the length of the string?
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 34
