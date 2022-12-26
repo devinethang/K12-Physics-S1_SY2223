@@ -77,3 +77,15 @@ Find the following:
 #### Problem Sets
 
 * "Physics: Problems and Solutions" - Problem Set 31
+
+### 7.06: Angular Displacement and Torque
+
+* Workbook: [7-06 - Angular Displacement and Torque.xlsx](7%20-%20Motion%20In%20Two%20Dimensions/7-06%20-%20Angular%20Displacement%20and%20Torque.xlsx)
+
+#### Unit Questions:
+
+* A centrifuge rotor accelerates from rest to 20,000 rpm in 2 minutes. What is the angular acceleration?
+
+#### Problem Sets
+
+* "Physics: Problems and Solutions" - Problem Set 32
