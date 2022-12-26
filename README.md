@@ -24,9 +24,21 @@ Cubit Estimate Conversions:
 1 cubit = 0.4572 m
 ```
 
-#### Problem Set
+#### Problem Sets
 
 * "Physics: Problems and Solutions" - Problem Set 1
+
+### 2.02: The Metric System: Base Units
+
+* International System of Units (SI) has seven base units.
+
+![SI Basic Units.png](2-%20Physical%20Units%20and%20Measurement\SI%20Basic%20Units.png)
+
+![SI Prefixes.png](2-%20Physical%20Units%20and%20Measurement\SI%20Prefixes.png)
+
+#### Problem Sets
+
+* "Physics: Problems and Solutions" - Problem Set 3 - 7
 
 ## 7: Motion in Two Dimensions
 
@@ -40,7 +52,7 @@ Cubit Estimate Conversions:
 
 * A boy throws a stone with a velocity of +20.0 m/s at an angle of 30°. How long does it take the stone to hit the ground? How far will the stone have traveled when it hits the ground? How high will it go?
 
-#### Problem Set
+#### Problem Sets
 
 * "Physics: Problems and Solutions" - Problem Set 30
 
@@ -62,6 +74,6 @@ Find the following:
 • Centripetal force exerted by the string on the stopper
 ```
 
-#### Problem Set
+#### Problem Sets
 
 * "Physics: Problems and Solutions" - Problem Set 31
