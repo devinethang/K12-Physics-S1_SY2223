@@ -12,6 +12,22 @@ A collection of workbooks for Physics calculations
 
 * Workbook: [HS_PHX_references_and_equations_A11Y.docx](1%20-%20Introduction%20to%20Physics/HS_PHX_references_and_equations_A11Y.docx)
 
+## 2: Physical Units and Measurement
+
+### 2.01: The Metric System: History and Use
+
+![Comparison of metric and English Conversions](2-%20Physical%20Units%20and%20Measurement/Comparison%20of%20metric%20and%20English%20Conversions.png)
+
+```
+Cubit Estimate Conversions:
+1 cubit = 1.5 ft
+1 cubit = 0.4572 m
+```
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 1
+
 ## 7: Motion in Two Dimensions
 
 ### 7.01: Projectile Motion
