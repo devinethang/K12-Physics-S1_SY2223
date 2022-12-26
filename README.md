@@ -16,7 +16,7 @@ A collection of workbooks for Physics calculations
 
 ### 2.01: The Metric System: History and Use
 
-![Comparison of metric and English Conversions](2-%20Physical%20Units%20and%20Measurement/Comparison%20of%20metric%20and%20English%20Conversions.png)
+![Comparison of metric and English Conversions](2%20-%20Physical%20Units%20and%20Measurement/Comparison%20of%20metric%20and%20English%20Conversions.png)
 
 ```
 Cubit Estimate Conversions:
@@ -32,9 +32,9 @@ Cubit Estimate Conversions:
 
 * International System of Units (SI) has seven base units.
 
-![SI Basic Units.png](2-%20Physical%20Units%20and%20Measurement\SI%20Basic%20Units.png)
+![SI Basic Units.png](2%20-%20Physical%20Units%20and%20Measurement/SI%20Basic%20Units.png)
 
-![SI Prefixes.png](2-%20Physical%20Units%20and%20Measurement\SI%20Prefixes.png)
+![SI Prefixes.png](2%20-%20Physical%20Units%20and%20Measurement/SI%20Prefixes.png)
 
 #### Problem Sets
 
