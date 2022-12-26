@@ -149,3 +149,21 @@ Find the following:
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 35
+
+### 8.04 - Universal Gravitation
+
+* Workbook: [8-04 - Universal Gravitation.xlsx](8%20-%20Gravitation/8-04%20-%20Universal%20Gravitation.xlsx)
+
+#### Unit Questions:
+
+* A planet is found to be 2.5 times as far from the sun as the earth. How long would it take to go around the sun?
+
+* Find the force of gravity between two 80.0 kg people when they are 1.00 meter apart from their centers.
+
+* What is the distance from the center of the earth to the surface? Assume the mass of the earth is 5.98×10^24 kg and use an 80.0 kg person standing at the surface to find any unknown values.
+
+* Typically, a space shuttle orbits 300.0 km above the earth’s surface. What velocity must be maintained so that it remains in a circular orbit? Assume that the mass of a space shuttle is 2.03×10^6 kg and the radius of the earth is 6.38×10^6 m.
+
+#### Problem Set
+
+* "Physics: Problems and Solutions" - Problem Set 36
