@@ -179,3 +179,23 @@ Find the following:
 #### Problem Set
 
 * "Physics: Problems and Solutions" - Problem Set 37
+
+### 9: Semester Review and Test
+
+Workbook: [9-01 - Semester Review.xlsx](9%20-%20Semester%20Review%20and%20Test/9-01%20-%20Semester%20Review.xlsx)
+
+#### Unit Questions:
+
+* How many meters are there in 28 cm?
+
+* Check if your calculation of the speed of a falling rock as it hits the ground is reasonable. The rock fell 11.0 m in 1.50 s, and you calculate it had a speed of 14.7 m/s.
+
+* Given a friction force of 1.10 N, how fast is a 0.510 kg book moving in 0.50 s if it starts from rest and you apply a force of 2.00 N in a straight line?
+
+* A 50.0 kg skater pushes a 65 kg skater with a force of 40.0 N for 1.1 s on a frictionless surface. Find the acceleration and the magnitude of the final velocity of each skater.
+
+* A book with a mass of 0.55 kg rests on a table. The coefficient of static friction for the two surfaces in contact is 0.35. A horizontal force of +0.45 N is applied. Does the book move? How strong a horizontal force can be applied to the book before it moves?
+
+* A boy throws a stone horizontally with a velocity of +20 m/s from the top of a cliff that is 44 m high. How long does it take the stone to reach the ground? What will the range of the stone be?
+
+* A 0.020 kg insect gets caught in a spider web and causes it to vibrate with a frequency of 10.0 Hz. What is the spring constant of the spider web?
