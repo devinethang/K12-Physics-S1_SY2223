@@ -70,7 +70,37 @@ Rules regarding significant digits:
 
 * A boy throws a stone horizontally with a velocity of +20 m/s from the top of a cliff that is 44 m high. How long does it take the stone to reach the ground? What will the range of the stone be?
 
+```js
+let h = 44; // m
+let v = 20; // m/s
+let g = -9.8; // m/s^2
+let t = Math.sqrt(2*h/Math.abs(g)); // s
+let d = v * t; // m
+console.log('Drop time=', t, 's');
+// Drop time= 2.9965967090575756 s
+console.log('Distance=', d, 'm');
+// Distance= 59.93193418115151 m
+```
+
 * A boy throws a stone with a velocity of +20.0 m/s at an angle of 30°. How long does it take the stone to hit the ground? How far will the stone have traveled when it hits the ground? How high will it go?
+
+```js
+let v = 20; // m/s
+let angle = 30; // degrees
+let theta = angle / 180 * Math.PI; // radians
+let g = -9.8; // m/s^2
+let Vx = v*Math.cos(theta); // m/s
+let Vy = v*Math.sin(theta); // m/s
+let t = Math.abs(2*Vy/g); // s
+console.log('Drop time=', t, 's');
+// Drop time= 2.040816326530612 s
+let Xmax = Vx*(t); // m
+console.log('Xmax=', Xmax, 'm');
+// Xmax= 35.34797566467096 m
+let Ymax = Vy*(t/2)+0.5*g*Math.pow(t/2, 2); // m, where t/2 is the max height
+console.log('Ymax=', Ymax, 'm');
+// Ymax= 5.102040816326529 m
+```
 
 #### Problem Set
 
