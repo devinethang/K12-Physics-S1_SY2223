@@ -230,7 +230,26 @@ console.log('Angular Acceleration', alpha, 'rad/s^2');
 
 * A screen door spring has a k of 250 N/m. What tension (force) will it apply to the door when the door is opened by –0.50 meters?
 
+```js
+let x = -0.5; // m
+let k = 250; // N/m
+let F = -k * Math.abs(x); // N
+console.log('F=', F, 'N');
+// F= -125 N
+```
+
 * A 0.020 kg insect gets caught in a spider web and causes the web to vibrate with a frequency of 10.0 Hz. What is the spring constant of the spider web?
+
+```js
+let m = 0.020; // kg
+let f = 10.0; // Hz
+let T = 1 / f; // s
+console.log('T=', T, 's');
+// T= 0.1 s
+let k = 4 * Math.pow(Math.PI, 2) * m / Math.pow(T, 2);
+console.log('k=', k, 'N/m');
+// k= 78.95683520871485 N/m
+```
 
 #### Problem Set
 
