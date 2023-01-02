@@ -305,12 +305,12 @@ console.log('L=', L, 'm');
 ```js
 let Db = 3.0; 
 let Da = 1.0;
-let Tb = Math.sqrt(Math.pow(Db, 3));
-console.log('Tb=', Tb);
-// Tb= 5.196152422706632
-let Ta = Math.sqrt(Math.pow(Da, 3));
-console.log('Ta=', Ta);
-// Ta= 1
+let Tb = Math.sqrt(Math.pow(Db, 3)); // yr
+console.log('Tb=', Tb, 'yr');
+// Tb= 5.196152422706632 yr
+let Ta = Math.sqrt(Math.pow(Da, 3)); // yr
+console.log('Ta=', Ta, 'yr');
+// Ta= 1 yr
 let ratio = Tb/Ta;
 console.log('ratio=', ratio);
 // ratio= 5.196152422706632
@@ -328,11 +328,58 @@ console.log('ratio=', ratio);
 
 * A planet is found to be 2.5 times as far from the sun as the earth. How long would it take to go around the sun?
 
+```js
+let Dearth = 1.0; // AU
+let Dobject = 2.5; // AU
+let y = 1; // yr
+let T = Math.sqrt(Math.pow(y,2)*Math.pow(Dobject,3)/Math.pow(Dearth, 3)); // yr
+console.log('Period', 'T=', T, 'yr');
+// Period T= 3.952847075210474 yr
+```
+
 * Find the force of gravity between two 80.0 kg people when they are 1.00 meter apart from their centers.
+
+```js
+let m1 = 80.0; // kg
+let m2 = 80.0; // kg
+let r = 1.00; // m
+let G = 6.67 * Math.pow(10, -11); // N*m^2/kg^2
+let Fg = G * m1 * m2 / Math.pow(r, 2); // N
+console.log('Fg=', Fg, 'N');
+// Fg= 4.2687999999999997e-7 N
+let m12 = Math.sqrt(Fg/G*Math.pow(r, 2)); // kg
+console.log('Mass if person 1 and 2 had equal weight', 'm12=', m12, 'kg');
+// Mass if person 1 and 2 had equal weight m12= 80 kg
+```
 
 * What is the distance from the center of the earth to the surface? Assume the mass of the earth is 5.98×10^24 kg and use an 80.0 kg person standing at the surface to find any unknown values.
 
+```js
+let m1 = 80.0; // kg
+let m2 = 5.98 * Math.pow(10, 24); // kg
+let G = 6.67 * Math.pow(10, -11); // N*m^2/kg^2
+let g = -9.81; // m/s^2
+let Fg = m1 * g; // N
+console.log('Fg=', Fg, 'N');
+// Fg= -784 N
+let r = Math.sqrt(G * m1 * m2 / Math.abs(Fg)); // m
+console.log('r=', r, 'm');
+// r= 6379703.147082782 m
+```
+
 * Typically, a space shuttle orbits 300.0 km above the earth’s surface. What velocity must be maintained so that it remains in a circular orbit? Assume that the mass of a space shuttle is 2.03×10^6 kg and the radius of the earth is 6.38×10^6 m.
+
+```js
+let m1 = 2.03 * Math.pow(10, 6); // kg
+let m2 = 5.98 * Math.pow(10, 24); // kg
+let Re = 6.38 * Math.pow(10, 6); // m
+let Hkm = 300; // km
+let Hm = Hkm * 1000; // m
+let Rsh = Re + Hm; // m
+let G = 6.67 * Math.pow(10, -11); // N*m^2/kg^2
+let v = Math.sqrt(G * m2 / Rsh); // m/s
+console.log('v=', v, 'm/s');
+```
 
 #### Problem Set
 
@@ -345,6 +392,17 @@ console.log('ratio=', ratio);
 #### Unit Questions:
 
 * Calculate the strength of the earth’s gravitational field near sea level from Newton’s law of universal gravitation and then calculate it at a distance twice as far from the center of the earth.
+
+```js
+let distanceMultiplier = 2;
+let G = 6.67 * Math.pow(10, -11); // N*m^2/kg^2
+let Mearth = 5.98 * Math.pow(10, 24); // kg
+let Rearth = 6.38 * Math.pow(10, 6); // m
+let Gsealevel = Mearth*G/Math.pow(Rearth, 2); // m/s^2
+let Fg = Mearth*G/Math.pow(Rearth, 2)/Math.pow(distanceMultiplier, 2); // m/s^2
+console.log('Gravity at twice the radius of Earth', 'Fg=', Fg, 'm/s^2');
+// Gravity at twice the radius of Earth Fg= 2.449772014819037 m/s^2
+```
 
 #### Problem Set
 
