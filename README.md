@@ -213,8 +213,8 @@ let Wi = Irpm * 2 * Math.PI / 60; // rad/s
 let Wf = Frpm * 2 * Math.PI / 60; // rad/s
 let Tsec = TMin * 60; // s
 let Dw = Wf - Wi; // rad/s
-let alpha = Dw / Tsec; // radians
-console.log('Angular Acceleration', alpha, 'radians');
+let alpha = Dw / Tsec; // rad/s^2
+console.log('Angular Acceleration', alpha, 'rad/s^2');
 // Angular Acceleration 17.453292519943297 radians
 ```
 
