@@ -161,7 +161,62 @@ console.log('Centripetal Force', 'Fc=', Fc, 'N');
 
 #### Unit Questions:
 
+* How do you measure the `distance` of a rotating wheel, given the displacement and radius?
+
+```js
+let s = 25.0; // cm
+let r = 10; // cm
+let theta = s/r;
+console.log('Displacement', 's=', s, 'cm');
+// Displacement s= 25 cm
+console.log('Radius', 'r=', r, 'cm');
+// Radius r= 10 cm
+console.log('Distance', 'theta=', theta, 'radians');
+// Distance theta= 2.5 radians
+```
+
+* How do you measure the `displacement` of a rotating wheel, given the distance and radius?
+
+```js
+let theta = 2.5; // radians
+let r = 10; // cm
+let s = theta * r; // cm
+console.log('Distance', 'theta=', theta, 'radians');
+// Distance theta= 2.5 radians
+console.log('Radius', 'r=', r, 'cm');
+// Radius r= 10 cm
+console.log('Displacement', 's=', s, 'cm');
+// Displacement s= 25 cm
+```
+
+* How do you measure the `radius` of a rotating wheel, given the displacement and distance?
+
+```js
+let theta = 2.5; // radians
+let s = 25.0; // cm
+let r = s / theta; // cm
+console.log('Displacement', 's=', s, 'cm');
+// Displacement s= 25 cm
+console.log('Distance', 'theta=', theta, 'radians');
+// Distance theta= 2.5 radians
+console.log('Radius', 'r=', r, 'cm');
+// Radius r= 10 cm
+```
+
 * A centrifuge rotor accelerates from rest to 20,000 rpm in 2 minutes. What is the angular acceleration?
+
+```js
+let Irpm = 0; // rad/s        Initial RPM
+let Frpm = 20000; // rpm      Final RPM
+let Tmin = 2; // min            Angular acceleration
+let Wi = Irpm * 2 * Math.PI / 60; // rad/s
+let Wf = Frpm * 2 * Math.PI / 60; // rad/s
+let Tsec = TMin * 60; // s
+let Dw = Wf - Wi; // rad/s
+let alpha = Dw / Tsec; // radians
+console.log('Angular Acceleration', alpha, 'radians');
+// Angular Acceleration 17.453292519943297 radians
+```
 
 #### Problem Set
 
