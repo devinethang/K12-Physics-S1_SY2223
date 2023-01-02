@@ -73,7 +73,7 @@ Rules regarding significant digits:
 ```js
 let h = 44; // m
 let v = 20; // m/s
-let g = -9.8; // m/s^2
+let g = -9.81; // m/s^2
 let t = Math.sqrt(2*h/Math.abs(g)); // s
 let d = v * t; // m
 console.log('Drop time=', t, 's');
@@ -88,7 +88,7 @@ console.log('Distance=', d, 'm');
 let v = 20; // m/s
 let angle = 30; // degrees
 let theta = angle / 180 * Math.PI; // radians
-let g = -9.8; // m/s^2
+let g = -9.81; // m/s^2
 let Vx = v*Math.cos(theta); // m/s
 let Vy = v*Math.sin(theta); // m/s
 let t = Math.abs(2*Vy/g); // s
@@ -281,7 +281,7 @@ console.log('Frequency', 'f=', f, 'Hz');
 
 ```js
 let f = 1.0; // Hz
-let g = -9.8; // m/s^2
+let g = -9.81; // m/s^2
 let T = 1 / f; // s
 console.log('Period', 'T=', T, 's');
 // Period T= 1 s
@@ -301,6 +301,20 @@ console.log('L=', L, 'm');
 #### Unit Questions:
 
 * Suppose Satellite B is in orbit 3.0 times as far from the earth's center as Satellite A. How are their orbital periods—the times to orbit the earth—related?
+
+```js
+let Db = 3.0; 
+let Da = 1.0;
+let Tb = Math.sqrt(Math.pow(Db, 3));
+console.log('Tb=', Tb);
+// Tb= 5.196152422706632
+let Ta = Math.sqrt(Math.pow(Da, 3));
+console.log('Ta=', Ta);
+// Ta= 1
+let ratio = Tb/Ta;
+console.log('ratio=', ratio);
+// ratio= 5.196152422706632
+```
 
 #### Problem Set
 
