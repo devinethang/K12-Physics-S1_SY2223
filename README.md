@@ -416,14 +416,103 @@ Workbook: [9-01 - Semester Review.xlsx](9%20-%20Semester%20Review%20and%20Test/9
 
 * How many meters are there in 28 cm?
 
+```js
+let d = 28; // cm
+d = d / 100; // m
+console.log('d=', d, 'm');
+```
+
 * Check if your calculation of the speed of a falling rock as it hits the ground is reasonable. The rock fell 11.0 m in 1.50 s, and you calculate it had a speed of 14.7 m/s.
+
+```js
+let v = 14.7; // m/s
+let g = 9.81; // m/s^2
+// v^2 = 2 * g * h
+// h = v^2 / 2 / g
+let h = Math.pow(v, 2)/2/g;
+console.log('h=', h, 'm');
+// h= 11.013761467889907 m
+```
 
 * Given a friction force of 1.10 N, how fast is a 0.510 kg book moving in 0.50 s if it starts from rest and you apply a force of 2.00 N in a straight line?
 
+```js
+let Ff = 1.10; // N
+let Fa = 2.00; // N
+let m = 0.510; // kg
+let t = 0.50; // s
+let a = (Fa - Ff) / m; // m/s^2
+console.log('a=', a, 'm/s^2');
+// a= 1.764705882352941 m/s^2
+let v = a * t;
+console.log('v=', v, 'm/s');
+// v= 0.8823529411764705 m/s
+```
+
 * A 50.0 kg skater pushes a 65 kg skater with a force of 40.0 N for 1.1 s on a frictionless surface. Find the acceleration and the magnitude of the final velocity of each skater.
+
+```js
+let m1 = 50.0; // kg
+let m2 = 65; // kg
+let f1 = 40.0; // N
+let t = 1.1; // s
+let a1 = f1/m1; // m/s^2
+console.log('a1=', a1, 'm/s^2');
+// a1= 0.8 m/s^2
+let a2 = -a1 * m1 / m2; // m/s^2
+console.log('a2=', a2, 'm/s^2');
+// a2= -0.6153846153846154 m/s^2
+let v1 = a1 * t;
+console.log('v1=', v1, 'm/s');
+// v1= 0.8800000000000001 m/s
+let v2 = a2 * t;
+console.log('v2=', v2, 'm/s');
+// v2= -0.676923076923077 m/s
+```
 
 * A book with a mass of 0.55 kg rests on a table. The coefficient of static friction for the two surfaces in contact is 0.35. A horizontal force of +0.45 N is applied. Does the book move? How strong a horizontal force can be applied to the book before it moves?
 
+```js
+let m = 0.55; // kg
+let Csf = 0.35; // coefficient static friction
+let f = 0.45; // N
+let g = -9.81; // m/s^2
+let Fn = m * -g;
+let Fmax = Csf * Fn; // N
+console.log('Fmax=', Fmax, 'N');
+// Fmax= 1.8884250000000002 N
+let Fmin = (1.0 - Csf) * Fn; // N
+console.log('Fmin=', Fmin, 'N');
+// Fmin= 3.507075000000001 N
+```
+
+Since 0.45 N < 3.51 N there is not enough force to move the book.
+
+The minimum amount of force needed to move the book is 3.51 N.
+
 * A boy throws a stone horizontally with a velocity of +20 m/s from the top of a cliff that is 44 m high. How long does it take the stone to reach the ground? What will the range of the stone be?
 
+```js
+let h = 44; // m
+let v = 20; // m/s
+let g = -9.81; // m/s^2
+let t = Math.sqrt(2*h/Math.abs(g)); // s
+let d = v * t; // m
+console.log('Drop time=', t, 's');
+// Drop time= 2.9965967090575756 s
+console.log('Distance=', d, 'm');
+// Distance= 59.93193418115151 m
+```
+
 * A 0.020 kg insect gets caught in a spider web and causes it to vibrate with a frequency of 10.0 Hz. What is the spring constant of the spider web?
+
+```js
+let m = 0.020; // kg
+let f = 10.0; // Hz
+let T = 1 / f; // s
+console.log('T=', T, 's');
+// T= 0.1 s
+let k = 4 * Math.pow(Math.PI, 2) * m / Math.pow(T, 2);
+console.log('k=', k, 'N/m');
+// k= 78.95683520871485 N/m
+```
