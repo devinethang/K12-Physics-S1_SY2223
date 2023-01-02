@@ -263,7 +263,32 @@ console.log('k=', k, 'N/m');
 
 * What is the period and frequency of a pendulum whose string length is 0.30 m, whose bob mass is 0.20 kg, and that is displaced by an angle of 10°?
 
+```js
+let m = 0.2; // kg
+let L = 0.30; // m
+let angle = 10; // degrees
+let theta = angle / 180 * Math.PI; // radians
+let g = -9.81; // m/s^2
+let T = 2 * Math.PI * Math.sqrt(L / Math.abs(g)); // s
+console.log('Period', 'T=', T, 's');
+// Period T= 1.0987679728847353 s
+let f = 1 / T; // Hz
+console.log('Frequency', 'f=', f, 'Hz');
+// Frequency f= 0.9101102550109582 Hz
+```
+
 * For a pendulum moving in SHM with a frequency of 1.0 Hz, what is the length of the string?
+
+```js
+let f = 1.0; // Hz
+let g = -9.8; // m/s^2
+let T = 1 / f; // s
+console.log('Period', 'T=', T, 's');
+// Period T= 1 s
+let L = Math.abs(g) * Math.pow(T, 2) / 4 / Math.pow(Math.PI, 2); // m
+console.log('L=', L, 'm');
+// L= 0.24823689992372758 m
+```
 
 #### Problem Set
 
