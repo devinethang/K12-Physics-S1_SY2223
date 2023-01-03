@@ -1,6 +1,6 @@
 # K12-Physics-S1_SY2223
 
-A collection of workbooks for Physics calculations
+A collection of formulas for Physics calculations
 
 * Hardcover - [Physics: Problems and Solutions](https://www.amazon.com/gp/product/1601530552/)
 
